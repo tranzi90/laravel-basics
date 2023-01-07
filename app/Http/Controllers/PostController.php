@@ -17,6 +17,7 @@ class PostController extends Controller
     }
 
     public function create() {
+
         Post::create([
             'title' => 'hello storm',
             'content' => 'storm content',
@@ -26,5 +27,15 @@ class PostController extends Controller
         ]);
 
         dd('created');
+    }
+
+    public function update() {
+
+        dd('updated');
+    }
+
+    public function delete() {
+
+        dd('deleted');
     }
 }
