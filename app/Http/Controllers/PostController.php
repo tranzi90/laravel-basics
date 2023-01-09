@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function __invoke()
+    {
+
+    }
+
     public function index() {
         $posts = Post::all();
 
