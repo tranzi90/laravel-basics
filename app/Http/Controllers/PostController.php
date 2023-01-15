@@ -28,14 +28,4 @@ class PostController extends Controller
 
         dd('created');
     }
-
-    public function update() {
-
-        dd('updated');
-    }
-
-    public function delete() {
-
-        dd('deleted');
-    }
 }
