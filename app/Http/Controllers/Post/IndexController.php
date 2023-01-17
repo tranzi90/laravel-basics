@@ -14,6 +14,5 @@ class IndexController extends Controller
 
         foreach ($posts as $post)
             dump($post->title);
-
     }
 }
