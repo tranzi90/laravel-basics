@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts', '\App\Http\Controllers\Post\IndexController');
+Route::get('/posts', '\App\Http\Controllers\Post\IndexController@__invoke');
 
 Route::get('/posts/create', '\App\Http\Controllers\PostController@create');
