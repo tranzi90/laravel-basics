@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('/posts', '\App\Http\Controllers\Post\IndexController@__invoke');
 
-Route::get('/posts/create', '\App\Http\Controllers\PostController@create');
+Route::get('/posts/create', '\App\Http\Controllers\Post\CreateController');
